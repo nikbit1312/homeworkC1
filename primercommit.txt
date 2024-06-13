@@ -18,4 +18,4 @@ en que sea realizó y el mensaje.
 una vez hecho esto queda enviar el commit a github, como el repositorio fue creado de manera local queda vincularlo a un repositorio 
 a github, para eso se utiliza el comando "git branch -m main"  para crear una nueva rama, una vez hecho esto queda vincular el repo a 
 github con el comando "git remote add origin (link del rep en git hub)", ya habiendo hecho esto se envía el archivo con el/los commit 
-hecho/s con el comando "git push -u origin main" 
+hecho/s con el comando "git push -u origin main".
