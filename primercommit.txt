@@ -7,11 +7,15 @@ en la terminal ahora la ruta de de la carpeta termina en (master) dando asi a en
 ahora vamos a hacer un commit, que es un commit? es la manera de guardar el estado actual del archivo, si no se hace ninguna edicion git
 no editará el archivo, para eso sirve un commit, basicamente es un punto de guardado para que luego se pueda seguir 
 trabajando desde donde se dejó. 
-un comando para asegurar que estamos trabajando en el repo es "git status"
+un comando para asegurar que estamos trabajando en el repo es "git status".
 para agregar el archivo a un commit se debe usar el comando "git add 'name'"/"git add ."(el segundo es para agregar más de un archivo) 
-y así este archivo/s va/n a estar agregado/s al commit  
+y así este archivo/s va/n a estar agregado/s al commit.  
 una vez agregado, se deja un breve mensaje en el commit para dar a entender la modificación que se hizo, para esto se usa el comando 
-"git commit -m 'mensaje'"
+"git commit -m 'mensaje'".
 una vez usado este comando ya va a estar hecho el comit, si se quiere saber cuantos commit han sido agregados se usa el comando "git log"
 donde va a especificar el codigo especifico del commit, la rama en la que se esta trabajando, el autor del commit, la fecha y hora 
-en que sea realizó y el mensaje 
+en que sea realizó y el mensaje.
+una vez hecho esto queda enviar el commit a github, como el repositorio fue creado de manera local queda vincularlo a un repositorio 
+a github, para eso se utiliza el comando "git branch -m main"  para crear una nueva rama, una vez hecho esto queda vincular el repo a 
+github con el comando "git remote add origin (link del rep en git hub)", ya habiendo hecho esto se envía el archivo con el/los commit 
+hecho/s con el comando "git push -u origin main" 
