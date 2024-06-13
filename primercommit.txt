@@ -1,0 +1,4 @@
+llegue hasta acá creando un repositorio en el escritorio usando "mkdir" luego entre al repo desde la terminal con el comando "cd"
+como argumento utilice el nombre del repositorio, una vez ya estando dentro de él creé este archivo de texto utilizando el comando
+"touch" agregando un ".txt" para especificar el tipo de archivo que queria agregar. para editar este archivo utilicé el comando "code"
+
