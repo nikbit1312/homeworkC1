@@ -1,4 +1,13 @@
 llegue hasta acá creando un repositorio en el escritorio usando "mkdir" luego entre al repo desde la terminal con el comando "cd"
 como argumento utilice el nombre del repositorio, una vez ya estando dentro de él creé este archivo de texto utilizando el comando
 "touch" agregando un ".txt" para especificar el tipo de archivo que queria agregar. para editar este archivo utilicé el comando "code"
+luego uso el comando "git init" para crear un repositorio de manera local.
+en la terminal ahora la ruta de de la carpeta termina en (master) dando asi a entender que este es un repositorio vacio local, con el comando
+"ls -a" se puede ver una lista de archivos no visibles.
+ahora vamos a hacer un commit, que es un commit? es la manera de guardar el estado actual del archivo, si no se hace ninguna edicion git
+no editará el archivo, para eso sirve un commit, basicamente es un punto de guardado para que luego se pueda seguir 
+trabajando desde donde se dejó. 
+un comando para asegurar que estamos trabajando en el repo es "git status"
+para agregar el archivo a un commit se debe usar el comando "git add 'name'"/"git add ."(el segundo es para agregar más de un archivo) 
+y así este archivo/s va/n a estar agregado/s al commit  
 
