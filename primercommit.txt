@@ -10,4 +10,8 @@ trabajando desde donde se dejó.
 un comando para asegurar que estamos trabajando en el repo es "git status"
 para agregar el archivo a un commit se debe usar el comando "git add 'name'"/"git add ."(el segundo es para agregar más de un archivo) 
 y así este archivo/s va/n a estar agregado/s al commit  
-
+una vez agregado, se deja un breve mensaje en el commit para dar a entender la modificación que se hizo, para esto se usa el comando 
+"git commit -m 'mensaje'"
+una vez usado este comando ya va a estar hecho el comit, si se quiere saber cuantos commit han sido agregados se usa el comando "git log"
+donde va a especificar el codigo especifico del commit, la rama en la que se esta trabajando, el autor del commit, la fecha y hora 
+en que sea realizó y el mensaje 
